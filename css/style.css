@@ -1,0 +1,275 @@
+body{
+		font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+		font-size: 16px;
+		color:darkslategray;
+}
+
+header{
+		background-color: #252525;
+		padding: 20px 0;
+}
+
+#secc-slider{
+		background-image: url(../img/slide-01.jpg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+		color:#FFFFFF;
+		text-align: center;
+		padding: 100px 0;
+		height: 600px;	
+}
+
+#secc-slider h2{
+	font-size: 32px;
+	text-transform: uppercase;
+}
+
+.barra{
+	background-color: #f54f15;
+	width: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 3px;
+}
+
+#secc-slider h1{
+	font-size: 60px;
+	font-weight: 700;
+}
+
+.btn-naranja{
+	background-color: #f54f15;
+	color: #ffffff;
+	border-radius: 0;
+	border:0;
+	text-transform: uppercase;
+	padding: 10px 30px;
+}
+
+.barra-izquierda{
+	display: inline-block;
+}
+
+.espaciado{
+	padding: 50px 0px
+}
+
+.titulo{
+	font-size: 60px;
+	font-weight: 700;
+}
+
+#sec-amanda h3{
+	font-size: 30px;
+	text-transform: uppercase;
+}
+
+p{
+	color: #777777;
+}
+
+.firma-amanda{
+	color: #f54f15;
+	font-size: 25px;
+	font-style: italic;
+	font-family: "aguafina-script";
+}
+
+#secc-ourclasses .titulo{
+	text-align: center;
+}
+
+#secc-ourclasses{
+	background-color: #f3f3f3;
+}
+
+#secc-ourclasses h3{
+	color: #f54f15;
+}
+
+#whatever-mood{
+	background-image: url(../img/bg-fitness.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	color: #ffffff;
+	text-align: center;
+	padding: 100px 0;
+	height: 600px;	
+}
+
+#whatever-mood h1{
+	font-size: 60px;
+	font-weight: 700;
+}
+
+.barra-coaches{
+	color: #fff;
+	align-content: center
+}
+
+#secc-coaches{
+	background-image: url(../img/bg-coaches.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	color: #ffffff;
+}
+
+.barra-blanca{
+	background-color: #fff;
+	width: 80px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 3px;
+}
+
+.cuadro-blanco{
+	background-color: #fff;
+	padding: 30px 20px;
+	text-align: center
+}
+
+.cuadro-blanco h2{
+	color: #333;
+	font-size: 24px;
+	font-weight: 600;
+	margin-top: 25px;
+	margin-bottom: 0;
+}
+
+.cuadro-blanco h3{
+	color: #f54f15;
+	font-size: 18px;
+	font-weight:600;
+	margin-top: 0;
+}
+
+#secc-fitnessposts h4{
+	text-align: center
+}
+
+#secc-ourclasses .owner, 
+#secc-ourclasses .owner-info{
+	position: relative;
+}
+
+#secc-ourclasses .slave{
+	position: absolute;
+	width: 100%;
+	bottom: 0px;
+	background-color: rgba(245,79,21,0.80);
+	padding-top: 15px 25px;
+}
+
+#secc-ourclasses .slave h3{
+	color: #FFFFFF;
+	font-weight: 600;
+	margin-left: 20px;
+}
+
+#secc-ourclasses .slave-info{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	bottom: 0;
+	background-color: rgba(245,79,21,0.70);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	opacity: 0;
+	transition: all ease-in-out 0.5s;
+}
+
+#secc-ourclasses .slave-info h3{
+	color: #FFFFFF;
+	font-weight: 600;
+}
+
+#secc-ourclasses .owner-info:hover .slave-info{
+	opacity: 1;
+	transition: all ease-in-out 0.5s;
+}
+
+#secc-ourclasses .overlay{
+	position: relative;
+}
+
+#secc-ourclasses .bg-overlay{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-color: hsla(0,0%,0%,0.85);
+	z-index: 1;
+}
+
+#secc-ourclasses .slave-overlay{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-color: rgba(245,79,21,0.70);
+	z-index: 2;
+}
+
+#secc-ourclasses .slave-overlay h3{
+	color: #FFFFFF;
+	font-weight: 600;
+	z-index: 3;
+}
+
+footer{
+	background-color: #252525;
+	color: #777;
+	padding: 10% 0px;
+	text-align: center;
+}
+
+footer h3{
+	color: aliceblue;
+}
+
+footer h3 span{
+	color: #f54f15;
+}
+
+.redes{
+	margin-top: 45px;
+	margin-bottom: 45;
+}
+
+.redes a{
+	width: 80px;
+	height: 80px;
+	line-height: 80px;
+	border: 2px solid #fff;
+	display: block;
+	border-radius: 100%;
+	color: aliceblue;
+	text-decoration: none;
+}
+
+.redes li{
+	display: inline-block
+}
+
+.redes a:hover{
+	background-color: aliceblue;
+	color:#252525;
+	transition: all ease 0.3s;
+}
+
+footer p a{
+	color: #f54f15;
+	font-weight: 400;
+}
+
+footer p a:hover{
+	color: #f54f15
+}
