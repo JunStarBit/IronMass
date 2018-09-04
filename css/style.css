@@ -251,7 +251,7 @@ footer h3 span{
 	border: 2px solid #fff;
 	display: block;
 	border-radius: 100%;
-	color: aliceblue;
+	color: #fff;
 	text-decoration: none;
 }
 
@@ -272,4 +272,36 @@ footer p a{
 
 footer p a:hover{
 	color: #f54f15
+}
+
+#sec-breadcrumb{
+	background-color: #F3F3F3;
+}
+
+#sec-breadcrumb .breadcrumb{
+	background-color: transparent;
+	border-radius: 0;
+}
+
+#sec-content{
+	text-align: center;
+	margin-bottom: 45px;
+}
+
+#sec-content h4{
+	font-weight: 700;
+	text-align: center;
+}
+
+.letra-naranja{
+	color: #F54F15;
+}
+
+#sec-content .font-weight-bold{
+	color: #000000;
+}
+
+#map{
+	width: 100%;
+	min-height: 300px;
 }
